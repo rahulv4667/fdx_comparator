@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    background-color: #27292c;
+}
+
+h1, input[type=file], label {
+    color:white;
+}
+
+.container {
+    margin: auto;
+    padding: 2%;
+    max-width: 900px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+.scene-heading, .shot {
+    /* flex-direction: row; */
+    /* justify-content: flex-start; */
+    text-transform: uppercase;
+}
+
+.character {
+    /* flex-direction: row; */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.dialogue, .parenthetical {
+    text-align: center;
+    max-width: 50%;
+    align-self: center;
+}
+
+
+.transition {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.highlight {
+    background:#27292c;
+    color: #ffffff;
+}
