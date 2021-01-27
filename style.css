@@ -48,3 +48,7 @@ h1, input[type=file], label {
     background:#27292c;
     color: #ffffff;
 }
+
+svg {
+    border-bottom:10px solid #27292c;
+}
